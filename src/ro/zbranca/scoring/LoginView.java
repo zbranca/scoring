@@ -42,8 +42,9 @@ public class LoginView extends Panel implements View {
 
         layout.addComponent(password);
 
-        final Button login = new Button("Login", new Button.ClickListener() {
-			private static final long serialVersionUID = 1L;
+        Button login = new Button("Login", new Button.ClickListener() {
+			
+        	private static final long serialVersionUID = 1L;
 
 			public void buttonClick(ClickEvent event) {
 				
